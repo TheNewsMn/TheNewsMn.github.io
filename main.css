@@ -148,6 +148,7 @@ h1{
   ;
   font-weight: 600;
   font-style: italic;
+  line-height: 0.5;
 
 }
 .center-header {
@@ -157,16 +158,29 @@ h1{
 
 h2 {
   background-color: #8AFF53;
-  padding: 5px 15px;
+  padding: 2px 5px;
   display: inline-block;
-  border-radius: 3px;
+  border-radius: 1px;
   letter-spacing: -1px;
   font-family: 'Montserrat Alternates', sans-serif;
   font-weight: 600;
   font-style: italic;
   font-size: 48px;
+  line-height: 0.5;
 }
-
+h3 {
+  background-color: #8AFF53;
+  padding: 2px 5px;
+  display: inline-block;
+  border-radius: 1px;
+  letter-spacing: -1px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 48px;
+  line-height: 0.5;
+  font-weight: bold;
+}
 .date {
   font-family: 'Montserrat Alternates', sans-serif;
   font-size: 18px;
@@ -388,10 +402,10 @@ article {
 /* Style the text and button over the image */
 #today-first {
   position: absolute;
-  top: 300px;
+  top: 230px;
   left: 150px;
   width: 315px; /* Adjust width as needed */
-  height: 315px; /* Adjust height as needed */
+  height: 310px; /* Adjust height as needed */
   display: flex;
   flex-direction: column;
   justify-content: flex-end; /* Align content to the bottom */
@@ -407,8 +421,9 @@ article {
   color: #333; /* Set text color */
   text-align: left;
   font-weight: bold;
-  font-size: 17px;
-  
+  font-size: 20px;
+  word-spacing: 5px;
+  margin-top: 1px;
 }
 /* Style for the save button */
 #today-first .save-button {
@@ -434,7 +449,7 @@ article {
 #today-right {
   position: absolute;
   width: 400px; /* Width for the larger image */
-  height: 200px; /* Adjust height as needed */
+  height: 350px; /* Adjust height as needed */
   right: 0px; /* Position on the right side */
   margin: -10px 20px; /* Adjust to control spacing */
   text-align: left;
@@ -450,10 +465,10 @@ article {
 /* Style the text and button over the image */
 #today-right {
   position: absolute;
-  top: 280px;
+  top: 220px;
   right: 125px; /* Position closer to the right side */
   width: 315px; /* Adjust width as needed */
-  height: 315px; /* Adjust height as needed */
+  height: 320px; /* Adjust height as needed */
   display: flex;
   flex-direction: column;
   justify-content: flex-end; /* Align content to the bottom */
@@ -468,7 +483,9 @@ article {
   color: #333; /* Set text color */
   text-align: left; /* Align text to the left */
   font-weight: bold; /* Make text bold */
-  font-size: 17px; /* Adjust font size */
+  font-size: 20px; /* Adjust font size */
+  word-spacing: 5px;
+  margin-top: 1px;
 }
 #today-right .save-button {
   top: 182px;
@@ -489,6 +506,73 @@ article {
   bottom: 130px; /* Adjust as needed */
 }
 
+.button-like {
+  display: inline-block; /* Allows padding and margins */
+  border-radius: 5px; /* Rounded corners */
+  text-decoration: none; /* Removes underline for links */
+  cursor: pointer; /* Changes cursor to pointer on hover */
+  transition: background-color 0.3s; /* Smooth color change */
+  margin-left: 0; /* Aligns the element to the left */
+  font-size: 15px;
+}
+
+.button-like:hover {
+  background-color:  #8AFF53; /* Darker shade on hover */
+}
+
+#trending-01 {
+  
+  width: 650px; /* Width for the larger image */
+  height: 400px; /* Adjust height as needed */
+  margin: -10px 20px; /* Adjust to control spacing */
+  text-align: left;
+  margin-left:  -10px;
+  
+  
+}
+
+#trending-01 img {
+  width: 100%; /* Image takes full width of its container */
+  height: 100%; /* Fill the container's height */
+  border-radius: 20px; /* Rounded corners */
+  margin-top: -25px;
+}
+
+#trending-01 p{
+  font-weight: bold;
+  font-size: 23px;
+  margin-top: 5px; /* Move up */
+  margin-left: 17px; /* Move right */
+  word-spacing: 7px;
+
+  
+}
+
+#trending-02 {
+  
+  width: 650px; /* Width for the larger image */
+  height: 400px; /* Adjust height as needed */
+  margin: -10px 20px; /* Adjust to control spacing */
+  text-align: left;
+  margin-right:  -10px;  
+}
+
+#trending-02 img {
+  width: 100%; /* Image takes full width of its container */
+  height: 100%; /* Fill the container's height */
+  border-radius: 20px; /* Rounded corners */
+  margin-top: -25px;
+}
+
+#trending-02 p{
+  font-weight: bold;
+  font-size: 23px;
+  margin-top: 5px; /* Move up */
+  margin-left: 17px; /* Move right */
+  word-spacing: 7px;
+
+  
+}
 
 
 
