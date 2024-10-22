@@ -577,16 +577,106 @@ article {
   line-height: 1.5;
 }
 
+#trending-03 {
+  
+  width: 310px; /* Width for the larger image */
+  height: 200px; /* Adjust height as needed */
+  text-align: left;
+  margin-left:  -10px;
+  margin-top: -270px;
+}
+
+#trending-03 img {
+  width: 100%; /* Image takes full width of its container */
+  height: 100%; /* Fill the container's height */
+  border-radius: 20px; /* Rounded corners */
+  margin-top: -25px;
+}
+
+#trending-03 p{
+  font-weight: bold;
+  font-size: 17px;
+  margin-top: 5px; /* Move up */
+  margin-left: 1px; /* Move right */
+  word-spacing: 7px; 
+}
+
+#trending-04 {
+  
+  width: 315px; /* Width for the larger image */
+  height: 210px; /* Adjust height as needed */
+  text-align: left;
+  margin-top: -270px;
+  margin-left: 295px;
+}
+
+#trending-04 img {
+  width: 100%; /* Image takes full width of its container */
+  height: 100%; /* Fill the container's height */
+  border-radius: 20px; /* Rounded corners */
+  margin-top: 35px;
+}
+
+#trending-04 p{
+  font-weight: bold;
+  font-size: 17px;
+  margin-top: 5px; /* Move up */
+  margin-left: 1px; /* Move right */
+  word-spacing: 7px; 
+}
 
 
 
+#trending-05 {
+  
+  width: 315px; /* Width for the larger image */
+  height: 210px; /* Adjust height as needed */
+  text-align: left;
+  margin-top: -220px;
+  margin-left: 605px;
+}
+
+#trending-05 img {
+  width: 100%; /* Image takes full width of its container */
+  height: 100%; /* Fill the container's height */
+  border-radius: 20px; /* Rounded corners */
+  margin-top: 35px;
+}
+
+#trending-05 p{
+  font-weight: bold;
+  font-size: 17px;
+  margin-top: 5px; /* Move up */
+  margin-left: 1px; /* Move right */
+  word-spacing: 7px; 
+}
 
 
+#trending-06 {
+  
+  width: 315px; /* Width for the larger image */
+  height: 210px; /* Adjust height as needed */
+  text-align: left;
+  margin-top: -220px;
+  margin-left: 915px;
+  margin-bottom: 1px;
+  position: relative; /* Enable positioning */
+}
 
+#trending-06 img {
+  width: 100%; /* Image takes full width of its container */
+  height: 100%; /* Fill the container's height */
+  border-radius: 20px; /* Rounded corners */
+  margin-top: 35px;
+}
 
-
-
-
+#trending-06 p{
+  font-weight: bold;
+  font-size: 17px;
+  margin-top: 5px; /* Move up */
+  margin-left: 1px; /* Move right */
+  word-spacing: 7px; 
+}
 
 
 
